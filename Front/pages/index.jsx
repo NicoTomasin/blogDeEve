@@ -106,9 +106,9 @@ export async function getServerSideProps({ query: { page = 1 } }) {
     encodeValuesOnly: true,
   });
 
-  const postsRes = await axios.get(`http://54.172.165.224:1337/api/posts?${query}`);
-  const all = await axios.get(`http://54.172.165.224:1337/api/posts`);
-  const categories = await axios.get(`http://54.172.165.224:1337/api/categories`);
+  const postsRes = await axios.get(`http://34.196.77.42:1337/api/posts?${query}`);
+  const all = await axios.get(`http://34.196.77.42:1337/api/posts`);
+  const categories = await axios.get(`http://34.196.77.42:1337/api/categories`);
   return {
     props: {
       posts: postsRes.data.data,
