@@ -8,6 +8,7 @@ import { motion } from 'framer-motion';
 import AllPosts from '../components/AllPosts';
 import Footer from '../components/Footer';
 import { createTheme } from '@mui/material/styles';
+
 function Home({ posts, page, last, length, categories }) {
   const [post, setPost] = React.useState(last);
   const theme = createTheme({
@@ -27,68 +28,73 @@ function Home({ posts, page, last, length, categories }) {
       <title>Evelyn Quinteros Rios</title>
       <link rel="shortcut icon" href="/favicon.ico" />
     </Head>
-    <Navbar />
+    <motion.div>
+      <Navbar />
+    </motion.div>
+    <motion.div>
+      <Paper sx={{
+        width: '100%',
+        height: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'rgba(50, 50, 93, 0.0)',
+        boxShadow: 'none',
+        marginTop: '8rem',
+        [theme.breakpoints.down('xl')]: {
+          marginTop: '0rem',
+        },
+      }}>
 
-    <Paper sx={{
-      width: '100%',
-      height: '100%',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: 'rgba(50, 50, 93, 0.0)',
-      boxShadow: 'none',
-      marginTop: '8rem',
-      [theme.breakpoints.down('xl')]: {
-        marginTop: '0rem',
-      },
-    }}>
 
+        <Grid container
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+          sx={{
 
-      <Grid container
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
-        sx={{
+          }}>
 
-        }}>
+          <Grid item xs={12} sm={6} sx={{
+            padding: '1rem',
+            [theme.breakpoints.up('sm')]: {
+              paddingLeft: '5rem',
+            },
+          }}>
 
-        <Grid item xs={12} sm={6} sx={{
-          padding: '1rem',
-          [theme.breakpoints.up('sm')]: {
-            paddingLeft: '5rem',
-          },
-        }}>
+            <motion.div
+              key={post}
+              initial={{ y: 20, opacity: 0 }}
+              animate={{
+                y: 0,
+                opacity: 1
+              }}
+            >
+              <PostSelected Title={post.attributes.Title} Description={post.attributes.Description} Body={post.attributes.body} Fecha={post.attributes.creation} />
+            </motion.div>
+          </Grid>
+          <Grid item xs={12} sm={6} sx={{
+            padding: '1rem',
+          }}>
 
-          <motion.div
-            key={post}
-            initial={{ y: 20, opacity: 0 }}
-            animate={{
-              y: 0,
-              opacity: 1
-            }}
-          >
-            <PostSelected Title={post.attributes.Title} Description={post.attributes.Description} Body={post.attributes.body} Fecha={post.attributes.creation} />
-          </motion.div>
-        </Grid>
-        <Grid item xs={12} sm={6} sx={{
-          padding: '1rem',
-        }}>
+            <Grid
+              container
+              direction="column"
+              justifyContent="center"
+              alignItems="center"
+            >
 
-          <Grid
-            container
-            direction="column"
-            justifyContent="center"
-            alignItems="center"
-          >
+              <AllPosts posts={posts} page={page} last={last} length={length} setPost={setPost} categories={categories} />
 
-            <AllPosts posts={posts} page={page} last={last} length={length} setPost={setPost} categories={categories} />
+            </Grid>
 
           </Grid>
-
         </Grid>
-      </Grid>
-    </Paper>
-    <Footer />
+      </Paper>
+    </motion.div>
+    <motion.div>
+      <Footer />
+    </motion.div>
   </>
   );
 }

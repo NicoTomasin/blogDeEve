@@ -8,8 +8,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 function Footer() {
     const theme = createTheme({});
     return (
-        <motion.footer>
-
+        <footer>
             <Grid container direction="row" justifyContent="center" alignItems="center"
 
                 sx={{
@@ -20,11 +19,8 @@ function Footer() {
                     userSelect: 'none',
                     width: '100%',
                     height: '8rem',
-                    position: 'absolute',
-                    bottom: 'auto',
-                    [theme.breakpoints.up('sm')]: {
-                        bottom: '0',
-                    },
+
+                    bottom: '0',
                 }}
             >
 
@@ -44,7 +40,7 @@ function Footer() {
                 </Grid>
 
             </Grid>
-        </motion.footer >
+        </footer >
     )
 };
 
