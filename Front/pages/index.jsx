@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { Paper, Grid } from '@mui/material';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
@@ -22,6 +23,10 @@ function Home({ posts, page, last, length, categories }) {
   });
 
   return (<>
+    <Head>
+      <title>Evelyn Quinteros Rios</title>
+      <link rel="shortcut icon" href="/favicon.ico" />
+    </Head>
     <Navbar />
 
     <Paper sx={{
