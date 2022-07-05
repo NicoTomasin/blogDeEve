@@ -22,7 +22,7 @@ function Home({ posts, page, last, length, categories }) {
       },
     },
   });
-
+  console.log('');
   return (<>
     <Head>
       <title>Evelyn Quinteros Rios</title>
@@ -113,14 +113,13 @@ export async function getServerSideProps({ query: { page = 1 } }) {
   });
 
   const postsRes = await axios.get(`http://34.196.77.42:1337/api/posts?${query}`);
-  const all = await axios.get(`http://34.196.77.42:1337/api/posts`);
   const categories = await axios.get(`http://34.196.77.42:1337/api/categories`);
   return {
     props: {
       posts: postsRes.data.data,
       page: +page,
-      last: all.data.data[0],
-      length: all.data.data.length,
+      last: postsRes.data.data[0],
+      length: postsRes.data.meta.pagination.total,
       categories: categories.data.data,
     },
   };
