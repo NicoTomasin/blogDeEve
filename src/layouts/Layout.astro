@@ -29,6 +29,10 @@ const makeTitle = title
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
+    <meta property="twitter:image" content={resolvedOGImage}>
+    <meta property="twitter:title" content={makeTitle}>
+    <meta property="twitter:description" content={desc ||
+      "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}>
     <SEO
       title={makeTitle}
       description={desc ||
