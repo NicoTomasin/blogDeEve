@@ -1,0 +1,28 @@
+---
+import Container from "@components/container.astro";
+import Postlist from "@components/postlist.astro";
+import Layout from "@layouts/Layout.astro";
+import { latestPosts } from "@utils/content";
+import Pagetitle from "@components/pagetitle.astro";
+---
+
+<Layout title="Blog">
+  <Container>    
+    <Pagetitle>
+      <Fragment slot="title">Ultimo post</Fragment>
+    </Pagetitle>
+      <div class="grid gap-10 mt-10 lg:gap-10">
+        {latestPosts.length > 0 ? (<Postlist post={latestPosts[0]} aspect="landscape" />) : 'No hay posts'}
+      </div>
+  </Container>
+  <Container>
+    <Pagetitle>
+      <Fragment slot="desc">Todos mis posts</Fragment>
+    </Pagetitle>
+    <main>
+      <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
+        {latestPosts.length > 0 ? latestPosts.map((post) => <Postlist post={post} aspect="square" />) : 'No hay posts'}
+      </div>
+    </main>
+  </Container>
+</Layout>

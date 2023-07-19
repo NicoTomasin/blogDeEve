@@ -1,0 +1,78 @@
+---
+import Footer from "@components/footer.astro";
+import Navbar from "@components/navbar.astro";
+import "@fontsource/inter/variable.css";
+import { checkImageUrl } from "@utils/all";
+import { SEO } from "astro-seo";
+
+export interface Props {
+  title?: string;
+  desc?: string;
+  ogimage?: string;
+}
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+
+const { title, desc, ogimage = "/opengraph.jpg" } = Astro.props;
+
+const resolvedOGImage = checkImageUrl(ogimage, Astro.site);
+
+const makeTitle = title
+  ? title + " | " + "Informate con Eve"
+  : "Informate con Eve";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="generator" content={Astro.generator} />
+    <SEO
+      title={makeTitle}
+      description={desc ||
+        "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}
+      canonical={canonicalURL}
+      twitter={{
+        creator: "@evelynquinterxs",
+        site: "@web3templates",
+        card: "summary_large_image",
+      }}
+      openGraph={{
+        basic: {
+          url: canonicalURL,
+          type: "website",
+          title: `Informate con Eve`,
+          image: resolvedOGImage,
+        },
+        image: {
+          alt: "Informate con Eve",
+        },
+      }}
+    />
+  </head>
+  <body class="bg-pink-100 dark:bg-pink-950">
+    <Navbar />
+    <slot />
+    <Footer />
+    <style is:global>
+      img {
+        content-visibility: auto;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(131, 53, 72);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(71, 29, 39);
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(90, 50, 93, 0.7);
+      }
+      ::-webkit-scrollbar {
+        width: 0.4rem;
+        height: 100%;
+      } 
+    </style>
+  </body>
+</html>
