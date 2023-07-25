@@ -88,6 +88,24 @@ const makeTitle = title
         width: 0.4rem;
         height: 100%;
       } 
+      img[alt^="Imagen:"]{
+        border-radius: 0.5rem;
+        border-width: 0.1rem;
+        border-style: solid;
+       
+        border-color: rgb(71, 29, 39);
+        box-shadow: 0 0 0.5rem 0.1rem rgb(71, 29, 39);
+        transition: 0.2s;
+      }
+      img[alt^="Imagen:"]:hover{
+        border-radius: 0.5rem;
+        border-width: 0.1rem;
+        border-style: solid;
+        border-color: rgb(131, 53, 72);
+        box-shadow: 0 0 0.5rem 0.1rem rgb(131, 53, 72);
+        transition: 0.2s;
+        scale: 1.05;
+      }
     </style>
   </body>
 </html>

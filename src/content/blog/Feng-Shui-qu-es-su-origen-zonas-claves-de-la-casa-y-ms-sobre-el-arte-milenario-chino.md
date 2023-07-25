@@ -5,7 +5,7 @@ title: >-
 excerpt: >-
   Se trata de una antigua práctica que muchas personas incorporan a su vida:
   apunta a equilibrar el entorno y mejorar el bienestar.
-publishDate: '2023-07-08'
+publishDate: "2023-07-08"
 image: >-
   https://assets.tina.io/355782f0-ae47-486a-aea9-bcfaa0ca5949/FengShuiMedia/550287.jpg
 category: general
@@ -22,7 +22,7 @@ El Feng Shui, un arte milenario que busca armonizar los espacios y equilibra
 
 El Feng Shui tiene sus raíces en la antigua cultura china y su historia se remonta a miles de años atrás. Sus principios se desarrollaron a través de la observación de la naturaleza y la interacción entre los seres humanos y su entorno. Los primeros registros escritos sobre el Feng Shui se encuentran en antiguos textos chinos, como el "Libro de los Ritos" y el "Libro de los Cambios".
 
-![](/FengShuiMedia/550290.jpg)
+![Imagen: Feng Shui](/FengShuiMedia/550290.jpg "Feng Shui")
 
 Esta práctica es originaria de China. Foto: Unsplash.
 
@@ -32,50 +32,36 @@ Durante siglos, esta práctica se mantuvo como un conocimiento transmitido de g
 
 El Feng Shui se basa en la creencia de que el entorno físico afecta a la vida y su energía vital, conocida como "chi". A través de la armonización y la optimización de los flujos de energía del hogar, es posible mejorar el bienestar, la salud y las relaciones personales.
 
-![](/FengShuiMedia/550288.jpg)
+![Imagen: Feng Shui](/FengShuiMedia/550288.jpg "Feng Shui")
 
 Existen elementos para el hogar que representan prosperidad. Foto: Unsplash.
 
 Algunas de las áreas clave del hogar que se consideran importantes en el Feng Shui son:
 
-* La entrada principal: Es el punto de entrada de energía del hogar. Una entrada ordenada invita a la energía positiva y permite que fluya libremente dentro del ambiente.
-
-
-* La cocina: Es el centro de la alimentación y la abundancia en el hogar. Mantener la cocina limpia y organizada, así como la colocación de elementos que representen prosperidad, puede ayudar a fomentar la prosperidad y la buena salud.
-
-
-* El dormitorio: Es un espacio vital para el descanso y la recuperación. Se recomienda ubicar la cama en una posición que permita un flujo armonioso de energía y evitar la presencia de dispositivos electrónicos que puedan interferir con el sueño. Es muy importante evitar que los espejos den directamente a la cama para evitar energías negativas.
-
-
-* El lugar de trabajo: Si trabajas en tu casa, es importante crear un entorno favorable que promueva la concentración, la productividad y el bienestar en general.
+- La entrada principal: Es el punto de entrada de energía del hogar. Una entrada ordenada invita a la energía positiva y permite que fluya libremente dentro del ambiente.
+- La cocina: Es el centro de la alimentación y la abundancia en el hogar. Mantener la cocina limpia y organizada, así como la colocación de elementos que representen prosperidad, puede ayudar a fomentar la prosperidad y la buena salud.
+- El dormitorio: Es un espacio vital para el descanso y la recuperación. Se recomienda ubicar la cama en una posición que permita un flujo armonioso de energía y evitar la presencia de dispositivos electrónicos que puedan interferir con el sueño. Es muy importante evitar que los espejos den directamente a la cama para evitar energías negativas.
+- El lugar de trabajo: Si trabajas en tu casa, es importante crear un entorno favorable que promueva la concentración, la productividad y el bienestar en general.
 
 ## Comenzando en la práctica del Feng Shui
 
 Si querés adentrarte en la práctica del Feng Shui y activarla en tu hogar, es recomendable buscar orientación de expertos o estudiar los principios básicos de esta disciplina. Un buen comienzo es el aprendizaje sobre los cinco elementos del Feng Shui (madera, fuego, tierra, metal y agua) y cómo se relacionan entre sí.
 
-![](/FengShuiMedia/550292.jpg)
+![Imagen: Feng Shui](/FengShuiMedia/550292.jpg "Feng Shui")
 
 Los cinco elementos se expresan a través de objetos, formas y colores. Foto: Feng Shui Mundo.
 
-* Madera: La madera representa el crecimiento, la vitalidad y la expansión. Se asocia con la energía del inicio y la renovación. Se utiliza para promover la creatividad, la inspiración y el desarrollo personal.
-
-
-* Fuego: El fuego simboliza la pasión, la acción y la transformación. Representa la energía yang, el entusiasmo y el impulso. Puede fomentar la motivación, la comunicación y la iluminación.
-
-
-* Tierra: La tierra está relacionada con la estabilidad, la nutrición y el enraizamiento. Representa la energía del centro y la conexión con la naturaleza. Ayuda a crear equilibrio, seguridad y estabilidad en el hogar.
-
-
-* Metal: El metal simboliza la precisión, la claridad y la eficiencia. Representa la energía del pensamiento y la concentración. Se utiliza para mejorar la organización, la disciplina y la fuerza mental.
-
-
-* Agua: El agua está asociada con el flujo, la intuición y la abundancia. Representa la energía yin, la flexibilidad y la adaptabilidad. Puede promover la calma, la serenidad y el flujo de la energía positiva.
+- Madera: La madera representa el crecimiento, la vitalidad y la expansión. Se asocia con la energía del inicio y la renovación. Se utiliza para promover la creatividad, la inspiración y el desarrollo personal.
+- Fuego: El fuego simboliza la pasión, la acción y la transformación. Representa la energía yang, el entusiasmo y el impulso. Puede fomentar la motivación, la comunicación y la iluminación.
+- Tierra: La tierra está relacionada con la estabilidad, la nutrición y el enraizamiento. Representa la energía del centro y la conexión con la naturaleza. Ayuda a crear equilibrio, seguridad y estabilidad en el hogar.
+- Metal: El metal simboliza la precisión, la claridad y la eficiencia. Representa la energía del pensamiento y la concentración. Se utiliza para mejorar la organización, la disciplina y la fuerza mental.
+- Agua: El agua está asociada con el flujo, la intuición y la abundancia. Representa la energía yin, la flexibilidad y la adaptabilidad. Puede promover la calma, la serenidad y el flujo de la energía positiva.
 
 Sin embargo, es vital destacar que el Feng Shui consta de un proceso gradual y personalizado, porque cada hogar tiene sus propias características y necesidades específicas. No se trata solo de seguir reglas rígidas, sino de sintonizar con la intuición y experimentar con diferentes arreglos y ajustes en el entorno.
 
 En palabras de Lillian Too, reconocida autoridad en Feng Shui, esta práctica "no es solo una cuestión de cómo arreglar los muebles, sino de cómo arreglamos nuestras vidas". Esta cita resalta la importancia de considerarla como una práctica holística que puede influir positivamente en todos los aspectos de la existencia.
 
-![](/FengShuiMedia/550289.jpg)
+![Imagen: Feng Shui](/FengShuiMedia/550289.jpg "Feng Shui")
 
 Los primeros registros escritos sobre el Feng Shui se encuentran en antiguos textos chinos. Foto: Unsplash.
 
