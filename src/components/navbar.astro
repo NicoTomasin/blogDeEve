@@ -24,7 +24,7 @@ const menu: Menu[] = [
     href: "/contacto",
   },
 ];
-const mobilemenu: Menu[] = [...menu,];
+const mobilemenu: Menu[] = [...menu];
 ---
 
 <Container>
@@ -68,7 +68,7 @@ const mobilemenu: Menu[] = [...menu,];
           menu.map((item) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-md font-medium text-pink-850 hover:text-pink-900 dark:text-pink-900 dark:hover:text-pink-850">
+              class="px-5 py-2 text-md font-medium text-pink-900 hover:text-pink-700 dark:text-pink-900 dark:hover:text-pink-700">
               {item.label}
             </a>
           ))
@@ -82,7 +82,7 @@ const mobilemenu: Menu[] = [...menu,];
           mobilemenu.map((item, index) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-sm font-medium text-pink-850 hover:text-pink-900 dark:text-pink-900 dark:hover:text-pink-850"
+              class="px-5 py-2 text-sm font-medium text-pink-900 hover:text-pink-700 dark:text-pink-900 dark:hover:text-pink-700"
               target={item.external ? "_blank" : ""}
               rel={item.external ? "noopener" : ""}>
               {item.label}
@@ -95,10 +95,10 @@ const mobilemenu: Menu[] = [...menu,];
 </Container>
 
 <script is:inline>
-  const menuButton = document.getElementById("menu");
-  menuButton.addEventListener("click", () => {
-    [...document.querySelectorAll(".navmenu-toggle")].forEach((Element) => {
-      Element.classList.toggle("hidden");
-    });
+const menuButton = document.getElementById("menu");
+menuButton.addEventListener("click", () => {
+  [...document.querySelectorAll(".navmenu-toggle")].forEach((Element) => {
+    Element.classList.toggle("hidden");
   });
+});
 </script>

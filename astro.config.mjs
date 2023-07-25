@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 import { remarkReadingTime } from "./src/utils/all";
 
 export default defineConfig({
-  site: "https://blog-de-eve.vercel.app/",
+  site: "https://www.informateconeve.com.ar/",
   markdown: {
     remarkPlugins: [remarkReadingTime],
     rehypePlugins: ["rehype-plugin-image-native-lazy-loading"],

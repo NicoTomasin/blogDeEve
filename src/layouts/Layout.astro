@@ -23,18 +23,25 @@ const makeTitle = title
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="apple-touch-icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <meta property="twitter:image" content={resolvedOGImage}>
-    <meta property="twitter:title" content={makeTitle}>
-    <meta property="twitter:description" content={desc ||
-      "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}>
-    <meta property="og:description" content={desc ||
-      "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}/>
+    <meta property="twitter:image" content={resolvedOGImage} />
+    <meta property="twitter:title" content={makeTitle} />
+    <meta
+      property="twitter:description"
+      content={desc ||
+        "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}
+    />
+    <meta
+      property="og:description"
+      content={desc ||
+        "Informate con Eve es un blog de noticias sobre tecnología, ciencia, cultura y más."}
+    />
     <SEO
       title={makeTitle}
       description={desc ||
@@ -57,16 +64,19 @@ const makeTitle = title
         },
       }}
     />
-  </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KEX7JB9ZRS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEX7JB9ZRS"
+    ></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-KEX7JB9ZRS');
-</script>
+      gtag("config", "G-KEX7JB9ZRS");
+    </script></head
+  >
+  <!-- Google tag (gtag.js) -->
+
   <body class="bg-pink-100 dark:bg-pink-950">
     <Navbar />
     <slot />
@@ -87,17 +97,25 @@ const makeTitle = title
       ::-webkit-scrollbar {
         width: 0.4rem;
         height: 100%;
-      } 
-      img[alt^="Imagen:"]{
+      }
+      svg {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      img {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      img[alt^="Imagen:"] {
         border-radius: 0.5rem;
         border-width: 0.1rem;
         border-style: solid;
-       
+
         border-color: rgb(71, 29, 39);
         box-shadow: 0 0 0.5rem 0.1rem rgb(71, 29, 39);
         transition: 0.2s;
       }
-      img[alt^="Imagen:"]:hover{
+      img[alt^="Imagen:"]:hover {
         border-radius: 0.5rem;
         border-width: 0.1rem;
         border-style: solid;

@@ -1,0 +1,16 @@
+{
+  "name": "Informate Con Eve",
+  "short_name": "Inf. Con Eve",
+  "description": "¡Hola! Soy Evelyn, una apasionada de la comunicación y el periodismo. Me considero una alma curiosa y creativa en constante búsqueda de nuevas historias para contar. Como Técnica Universitaria en Periodismo y estudiante avanzada de Licenciatura en Comunicación Social, he estado sumergida en el emocionante mundo de la información y las estrategias de comunicación.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#240014",
+  "theme_color": "#E6027F",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}

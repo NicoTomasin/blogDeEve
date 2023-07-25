@@ -39,7 +39,7 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "string",
+            type: "datetime",
             name: "publishDate",
             label: "Fecha de publicación",
             required: true,

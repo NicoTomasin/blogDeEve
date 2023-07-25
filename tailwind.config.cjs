@@ -9,10 +9,11 @@ module.exports = {
       colors: {
         gray: colors.neutral,
         pink: {
+          700: "#ff038f",
           750: "#BA0079",
           850: "#a3006b",
-          900: "#ff038f",
-          950: "#2b0018",
+          900: "#E6027F",
+          950: "#240014",
         },
       },
       fontFamily: {

@@ -11,4 +11,4 @@ Disallow: /wp-
 Disallow: /trackback/
 Disallow: /xmlrpc.php
 
-Sitemap: http://informateconeve.com.ar/sitemap-index.xml
+Sitemap: http://informateconeve.com.ar/sitemap.xml
