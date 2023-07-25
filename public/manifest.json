@@ -1,6 +1,6 @@
 {
-  "name": "Informate con eve",
-  "short_name": "ICE",
+  "name": "Informate Con Eve",
+  "short_name": "Informate Con Eve",
   "description": "¡Hola! Soy Evelyn, una apasionada de la comunicación y el periodismo. Me considero una alma curiosa y creativa en constante búsqueda de nuevas historias para contar. Como Técnica Universitaria en Periodismo y estudiante avanzada de Licenciatura en Comunicación Social, he estado sumergida en el emocionante mundo de la información y las estrategias de comunicación.",
   "start_url": "https://www.informateconeve.com.ar/",
   "lang": "es",
@@ -21,7 +21,5 @@
     }
   ],
   "dir": "auto",
-  "categories": [
-    "news"
-  ]
+  "categories": ["news"]
 }
