@@ -1,13 +1,13 @@
 {
   "name": "Informate con eve",
   "short_name": "ICE",
-  "description": "Informate con eve",
+  "description": "¡Hola! Soy Evelyn, una apasionada de la comunicación y el periodismo. Me considero una alma curiosa y creativa en constante búsqueda de nuevas historias para contar. Como Técnica Universitaria en Periodismo y estudiante avanzada de Licenciatura en Comunicación Social, he estado sumergida en el emocionante mundo de la información y las estrategias de comunicación.",
   "start_url": "https://www.informateconeve.com.ar/",
-  "lang": "Spanish",
-  "display": "standalone",
-  "theme_color": "#3d3d3d",
-  "background_color": "#f2f2f2",
-  "orientation": "portrait",
+  "lang": "es",
+  "display": "fullscreen",
+  "theme_color": "#e6027f",
+  "background_color": "#240014",
+  "orientation": "any",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -19,5 +19,9 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "dir": "auto",
+  "categories": [
+    "news"
   ]
 }

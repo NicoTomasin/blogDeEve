@@ -77,7 +77,11 @@ const makeTitle = title
     </script></head
   >
   <!-- Google tag (gtag.js) -->
-
+  <script>
+    if (typeof navigator.serviceWorker !== "undefined") {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
   <body class="bg-pink-100 dark:bg-pink-950">
     <Navbar />
     <slot />
