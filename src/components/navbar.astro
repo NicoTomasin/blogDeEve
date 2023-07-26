@@ -44,7 +44,7 @@ const mobilemenu: Menu[] = [...menu];
           aria-label="Toggle Menu"
           class="px-2 py-1 ml-auto text-gray-500 rounded-md md:hidden focus:text-pink-500 focus:outline-none dark:text-gray-300">
           <svg
-            class="w-6 h-6 fill-current"
+            class="w-6 h-6 fill-current fill-pink-900"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <path
@@ -68,7 +68,7 @@ const mobilemenu: Menu[] = [...menu];
           menu.map((item) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-md font-medium text-pink-900 hover:text-pink-700 dark:text-pink-900 dark:hover:text-pink-700">
+              class="px-5 py-2 text-md font-medium text-pink-900 hover:text-pink-900 dark:text-pink-900 dark:hover:text-pink-700">
               {item.label}
             </a>
           ))
@@ -82,7 +82,7 @@ const mobilemenu: Menu[] = [...menu];
           mobilemenu.map((item, index) => (
             <a
               href={item.href}
-              class="px-5 py-2 text-sm font-medium text-pink-900 hover:text-pink-700 dark:text-pink-900 dark:hover:text-pink-700"
+              class="px-5 py-2 text-sm font-medium text-pink-900 hover:text-pink-900 dark:text-pink-900 dark:hover:text-pink-700"
               target={item.external ? "_blank" : ""}
               rel={item.external ? "noopener" : ""}>
               {item.label}

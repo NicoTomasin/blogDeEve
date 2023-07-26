@@ -5,7 +5,7 @@
   "start_url": "https://www.informateconeve.com.ar/",
   "lang": "es",
   "display": "fullscreen",
-  "theme_color": "#e6027f",
+  "theme_color": "#240014",
   "background_color": "#240014",
   "orientation": "any",
   "icons": [
@@ -21,5 +21,19 @@
     }
   ],
   "dir": "auto",
-  "categories": ["news"]
+  "categories": ["news"],
+  "shortcuts": [
+    {
+      "name": "Blog",
+      "url": "/"
+    },
+    {
+      "name": "Sobre Mi",
+      "url": "/about"
+    },
+    {
+      "name": "Contacto",
+      "url": "/contacto"
+    }
+  ]
 }
