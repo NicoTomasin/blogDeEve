@@ -25,15 +25,18 @@
   "shortcuts": [
     {
       "name": "Blog",
-      "url": "/"
+      "url": "/",
+      "icons": [{ "src": "/icons/blog.png", "sizes": "192x192" }]
     },
     {
       "name": "Sobre Mi",
-      "url": "/about"
+      "url": "/about",
+      "icons": [{ "src": "/icons/about.png", "sizes": "192x192" }]
     },
     {
       "name": "Contacto",
-      "url": "/contacto"
+      "url": "/contacto",
+      "icons": [{ "src": "/icons/contact.png", "sizes": "192x192" }]
     }
   ]
 }
