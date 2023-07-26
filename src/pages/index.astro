@@ -7,21 +7,35 @@ import Pagetitle from "@components/pagetitle.astro";
 ---
 
 <Layout title="Blog">
-  <Container>    
-    <Pagetitle>
-      <Fragment slot="title">Ultimo post</Fragment>
-    </Pagetitle>
-      <div class="grid gap-10 mt-10 lg:gap-10">
-        {latestPosts.length > 0 ? (<Postlist post={latestPosts[0]} aspect="landscape" />) : 'No hay posts'}
-      </div>
+  <Container>
+    <h1
+      class="text-3xl font-semibold tracking-tight text-center lg:leading-snug text-brand-primary lg:text-4xl text-pink-900">
+      Ultimo post
+    </h1>
+    <div class="grid gap-10 mt-10 lg:gap-10">
+      {
+        latestPosts.length > 0 ? (
+          <Postlist post={latestPosts[0]} aspect="landscape" />
+        ) : (
+          "No hay posts"
+        )
+      }
+    </div>
   </Container>
   <Container>
-    <Pagetitle>
-      <Fragment slot="desc">Todos mis posts</Fragment>
-    </Pagetitle>
+    <div class="center text-center">
+      <h2 class="text-lg mt-3 text-pink-900">Todos mis posts</h2>
+    </div>
+
     <main>
       <div class="grid gap-10 mt-10 lg:gap-10 md:grid-cols-2 xl:grid-cols-3">
-        {latestPosts.length > 0 ? latestPosts.map((post) => <Postlist post={post} aspect="square" />) : 'No hay posts'}
+        {
+          latestPosts.length > 0
+            ? latestPosts.map((post) => (
+                <Postlist post={post} aspect="square" />
+              ))
+            : "No hay posts"
+        }
       </div>
     </main>
   </Container>
